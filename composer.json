@@ -1,0 +1,21 @@
+{
+    "name": "vendor/temperature-converter",
+    "description": "For converting temperature values",
+    "autoload": {
+        "psr-4": {
+            "Vendor\\TemperatureConverter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Abel Akponine",
+            "email": "abelakponine@gmail.com"
+        }
+    ],
+    "require": {
+        "webmozart/console": "~1.0@beta"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
